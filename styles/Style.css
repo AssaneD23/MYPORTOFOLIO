@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Abril Fatface';
+    background-color: whitesmoke;
+}
+
+/* Navbar */
+.navbar {
+    background-color: whitesmoke;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #131615;
+    font-size: 20px;
+}
+
+/*survol navbar */
+.navbar ul li :hover {
+    text-decoration: none;
+    color: #CA3C25;
+}
+
+/* Sections acceuil */
+section {
+    padding: 200px;
+    padding-top: 150px;
+}
+
+#acceuil {
+    text-align: left;
+    font-size: large;
+}
+
+#acceuil h1 {
+    color: #131615;
+    font-size: 150px;
+    transition: 0.2s;
+    margin-right: 370px;
+    border-bottom: solid 2px #131615;
+}
+
+/*survol*/
+#acceuil h1:hover {
+    font-size: 150px;
+    color: #B3D89C;
+    border-bottom: solid 5px #B3D89C;
+}
+
+#acceuil p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #131615;
+    font-family: 'Lexend Deca';
+}
+
+/*survol*/
+#acceuil p:hover {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #CA3C25;
+    font-family: 'Lexend Deca';
+}
+
+/* a propos */
+#apropos {
+    text-align: center;
+    background-color: #B3D89C;
+    border-radius: 30px;
+}
+
+#apropos .text1 {
+    font-size: 100px;
+    letter-spacing: 10px;
+    color: #131615;
+    border-bottom: solid 2px #131615;
+}
+
+#apropos .text2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #131615;
+}
+
+#apropos .parg1 {
+    font-size: 1.2em;
+    font-family: 'Lexend Deca';
+    color: #131615;
+    letter-spacing: 2px;
+}
+
+/* réalisations */
+#réalisations {
+    text-align: center;
+}
+
+.b1 {
+    display: flex;
+    justify-content: center;
+}
+
+#réalisations div p span {
+    font-size: 50px;
+    float: left;
+    margin-right: 50px;
+    letter-spacing: 5px;
+    font-family: 'Abril fatface';
+    color: #CA3C25;
+}
+
+.parg2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-right: 300px;
+    margin-left: 100px;
+    padding: 0%;
+    float: right;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: #BF4E30 1.5px solid;
+}
+
+#réalisations .sembene {
+    margin-bottom: 10px;
+    margin-right: 100px;
+    float: right;
+    box-shadow: 0 4px 8px rgba(1, 1, 0, 0.1);
+}
+
+/* Les tabeaux*/
+#tableau {
+    padding: 0;
+    margin-right: 80px;
+    margin-left: 300px;
+    border-radius: 30px;
+    display: flexbox;
+}
+
+.tab {
+    margin-right: 80px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(1, 1, 0, 0.1);
+
+}
+
+.colab {
+    font-size: 30px;
+    margin-right: 650px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-family: 'Abril fatface';
+    color: #CA3C25;
+    border-bottom: #131615 solid 0.5px;
+}
+
+/* vidéos */
+
+.b2 {
+    display: flex;
+    justify-content: center;
+}
+
+#vidéos div p span {
+    font-size: 60px;
+    float: left;
+    margin-right: 80px;
+    letter-spacing: 5px;
+    font-family: 'Abril fatface';
+    color: whitesmoke;
+}
+
+.parg3 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-right: 300px;
+    margin-left: 100px;
+    padding: 0%;
+    float: right;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    border-bottom: whitesmoke 1.5px solid;
+}
+
+#vidéos {
+    background-color: #114B5F;
+    border-radius: 30px;
+}
+
+#vidéos .kaf {
+    margin-bottom: 10px;
+    margin-right: 100px;
+    padding: 10px;
+    border: solid whitesmoke 0.5px;
+    border-radius: 25px;
+    float: right;
+}
+
+/*formulaire de contacts */
+
+#contacts {
+    text-align: center;
+}
+
+#contacts h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #CA3C25;
+    letter-spacing: 2px;
+}
+
+#contacts form {
+    margin-bottom: 20px;
+}
+
+#contacts form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contacts form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#contacts form button {
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
